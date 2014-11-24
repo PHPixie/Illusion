@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "13eff20f465348eae529292b0dc610c6",
+    "hash": "46af2e51d25b8bfde574ea3461227d57",
     "packages": [
         {
             "name": "bolt80/stupidhttp",
-            "version": "dev-master",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ludovicchabant/StupidHttp.git",
-                "reference": "32c44387e8eccd9f66191240aae5b4df6fc09926"
+                "reference": "5bee4ddd2162f860721884450586e25cb48950d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ludovicchabant/StupidHttp/zipball/32c44387e8eccd9f66191240aae5b4df6fc09926",
-                "reference": "32c44387e8eccd9f66191240aae5b4df6fc09926",
+                "url": "https://api.github.com/repos/ludovicchabant/StupidHttp/zipball/5bee4ddd2162f860721884450586e25cb48950d1",
+                "reference": "5bee4ddd2162f860721884450586e25cb48950d1",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "server",
                 "web"
             ],
-            "time": "2012-06-02 21:18:43"
+            "time": "2012-05-31 20:28:25"
         }
     ],
     "packages-dev": [
@@ -57,9 +57,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "bolt80/stupidhttp": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
