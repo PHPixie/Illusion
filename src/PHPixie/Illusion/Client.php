@@ -20,11 +20,12 @@ class Client
         $this->serverInput->write(array('action' => 'stop'));
     }
     
-    public function route($path, $response, $method = 'GET')
+    public function route($path, $response, $method = 'GET', $headers = array())
     {
         $message = array(
             'action'   => 'route',
             'method'   => $method,
+            'headers'  => $headers,
             'path'     => $path,
             'response' => $response
         );

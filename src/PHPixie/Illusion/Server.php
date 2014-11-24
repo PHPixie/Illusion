@@ -47,6 +47,13 @@ class Server
             $this->webserver
                     ->on($message['method'], $message['path'])
                     ->call(function ($r) use($message){
+                        foreach($message['headers'] as $header) {
+                            try {
+                                header($header);
+                            }catch(\Exception $e){
+                            
+                            }
+                        }
                         echo $message['response'];
                     });
             

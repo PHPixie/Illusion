@@ -37,6 +37,7 @@ class ServerTest extends \PHPixie\Illusion\Test
             $message = array(
                 'action' => 'route',
                 'method' => 'GET',
+                'headers' => array('Content-Type: text/plain'),
                 'path'   => '/hello',
                 'response' => 'world'
             );
