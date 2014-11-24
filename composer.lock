@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "13eff20f465348eae529292b0dc610c6",
+    "packages": [
+        {
+            "name": "bolt80/stupidhttp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ludovicchabant/StupidHttp.git",
+                "reference": "32c44387e8eccd9f66191240aae5b4df6fc09926"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ludovicchabant/StupidHttp/zipball/32c44387e8eccd9f66191240aae5b4df6fc09926",
+                "reference": "32c44387e8eccd9f66191240aae5b4df6fc09926",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "StupidHttp_": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ludovic Chabant",
+                    "homepage": "http://ludovic.chabant.com"
+                }
+            ],
+            "description": "A stupid and simple development HTTP server.",
+            "homepage": "http://bolt80.com/stupidhttp",
+            "keywords": [
+                "http",
+                "net",
+                "server",
+                "web"
+            ],
+            "time": "2012-06-02 21:18:43"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bolt80/stupidhttp": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

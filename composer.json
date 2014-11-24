@@ -1,0 +1,22 @@
+{
+    "name": "phpixie/illusion",
+    "type": "library",
+    "license": "MIT",
+    "description": "Mock HTTP testing server",
+    "keywords": [ "http", "server", "mock", "test" ],
+    "homepage": "http://phpixie.com/",
+    "authors": [
+        {
+            "name": "Dracony",
+            "homepage": "http://phpixie.com"
+        }
+    ],
+    "require": {
+        "bolt80/stupidhttp": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPixie": "src/"
+        }
+    }
+}
