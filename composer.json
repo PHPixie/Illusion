@@ -1,7 +1,7 @@
 {
     "name": "phpixie/illusion",
     "type": "library",
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "description": "Mock HTTP testing server",
     "keywords": [ "http", "server", "mock", "test" ],
     "homepage": "http://phpixie.com/",
